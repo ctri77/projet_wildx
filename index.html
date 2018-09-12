@@ -106,12 +106,51 @@
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
+<div>
+    <form>
+            <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Je pré-réserve</label>
+                  </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationCustom01">Prénom</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Prénom" value="Elan" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="validationCustom02">Nom</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Nom" value="Musk" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="FormControlInput1">Adresse E-mail</label>
+                <input type="email" class="form-control" id="FormControlInput1" placeholder="nom@exemple.fr">
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                    <label class="form-check-label" for="invalidCheck3">
+                        Oui, j'accepte les termes et conditions.
+                    </label>
+                    <div class="invalid-feedback">
+                        Vous devez accepter les termes et conditions avant d'envoyer.
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Envoyer</button> <!--set a button color--> 
+            </div>
+    </form>
+</div>
 <footer>
+
 </footer>
 </html>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="script.js"></script>
