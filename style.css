@@ -69,3 +69,17 @@ color:white;
 	margin: 15px 15px;
 }
 
+
+/*propriété container*/
+#carac, #Why, #How, #About, #Formu
+{
+	margin-top: 40px;
+}
+/*propriété titre*/
+h1
+{
+font-weight: 300;
+line-height: 1.2;
+font-size: 35px;
+color: #ff8700;
+}
