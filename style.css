@@ -36,9 +36,13 @@ color:white;
 	background-color: darkgrey;
 }
 
-#nav {
-	background-color: white;
+#nav .nav-link {
+	color: #424242;
 	
+}
+
+#nav .nav-link:hover {
+	color: white;
 }
 @media screen and (min-width: 992px) {
 	.carousel-inner img {
