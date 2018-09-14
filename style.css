@@ -24,9 +24,10 @@ width:100%;
 height:400px;
 background-color:#5f666d;
 color:white;
+<<<<<<< HEAD
 }
 
-#carouselExampleIndicators {
+#carouselIndicators {
 	margin-top: 80px;
 }
 .carousel-indicators .active {
@@ -36,10 +37,14 @@ color:white;
 	background-color: darkgrey;
 }
 
+#nav {
+	background-color: white;
+	
+}
 @media screen and (min-width: 992px) {
 	.carousel-inner img {
 		width: 100%;
-		height: 700px;
+		height: 800px;
 	}
 }
 
@@ -55,3 +60,6 @@ color:white;
 	height: 50px;
 	margin: 15px 15px;
 }
+=======
+}
+>>>>>>> 96275ec27c31b9e7777220994f59c207053d0083
