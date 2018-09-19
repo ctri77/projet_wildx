@@ -1,3 +1,7 @@
+.toto {
+	display: flex;
+}
+
 .logo {
     width: 50px;
 }
@@ -19,6 +23,8 @@
     color: white;
 }
 
+
+
 .carousel-page
 {
 width:100%;
@@ -28,7 +34,7 @@ color:white;
 }
 
 #carouselIndicators {
-	margin-top: 80px;
+	margin-top: 70px;
 }
 .carousel-indicators .active {
 	background-color: #ff8700;
@@ -37,12 +43,13 @@ color:white;
 	background-color: darkgrey;
 }
 
-#nav .nav-link {
+#nav .nav-link, #nav .dropdown-item {
 	color: #424242;
 	
 }
 
 #nav .nav-link:hover {
+
 	color: white;
 }
 
