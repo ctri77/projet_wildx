@@ -94,25 +94,35 @@ color: #ff8700;
 footer{
 	margin-top: 20px;
 	align-content: center;
+	width: 100%
 }
 
 footer p {
-    color: white;
+    color: #424242;
     padding-top: 10px;
 }
 
 footer ul {
     list-style-type: none;
-    color: #fff;
+    color: #424242;
+}
+
+footer a{
+	color: #424242;
 }
 
 footer ul li {
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 85%; 
+    font-size: 100%; 
+}
+
+footer a:hover{
+	color: #424242;
 }
 
 .taillefoo {
 	width: 55px;
+	margin-bottom: 5%;
 
 }
