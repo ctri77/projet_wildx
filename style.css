@@ -118,3 +118,56 @@ h1 img {
 .formfontc{
 	color:#FF7F00
 }
+
+/*Footer*/
+footer{
+	
+	margin-top: 20px;
+	align-content: center;	
+	
+}
+
+#footer {
+	background-color: red;
+}
+
+footer p {
+    color: #424242;
+	padding-top: 10px;
+	list-style-type: none;
+}
+
+footer ul {
+    list-style-type: none;
+    color: #424242;
+}
+
+footer a{
+	color: #424242;
+}
+
+footer ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 100%; 
+}
+
+footer a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+.taillefoo {
+	width: 65px;
+	margin-left: 7%;
+
+}
+
+.accentuation {
+	color: red;
+}
+
+.accentuation2 {
+	color: rgb(43, 219, 43);
+}

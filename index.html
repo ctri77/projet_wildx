@@ -55,7 +55,7 @@
             </div>
         </nav>
     </header>
-    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="8500">
         <ol class="carousel-indicators">
           <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselIndicators" data-slide-to="1"></li>
@@ -64,9 +64,15 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block img-fluid rounded mx-auto" src="medias/cerf_tete.png" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h2 class="ctaille">Un produit <span class="accentuation">révolutionnaire</span> !</h5>
+            </div>
           </div>
           <div class="carousel-item mr-auto">
             <img class="d-block img-fluid rounded mx-auto" src="medias/cerf_tete3.png" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h2 class="ctaille">Connectez vous à la <span class="accentuation2">Nature</span> !</h5>
+            </div>
           </div>
           <div class="carousel-item mr-auto">
             <img class="d-block img-fluid rounded mx-auto" src="medias/cerf_tete4.png" alt="Third slide">
@@ -209,7 +215,7 @@
     </div>
     <!-- container5: formulaire -->
     <div class="container-fluid" id="Formu">
-            <h2 class="formfontc">Nous contacter :</h2>
+            <h1 class="formfontc"><span class="px-2"><img src="medias/mail_orange.svg"></span>Nous contacter</h1>
         <div class="row justify-content-center">
                 <form>
                         <div class="custom-control custom-checkbox mb-3">
@@ -257,9 +263,30 @@
                 </form> 
         </div>
     </div>
-
-    <footer>
-
+    <footer class="container-fluid px-0 mx-0 wildtheme">
+        <div class="pt-3">
+            <div class="row w-100 no-gutters">
+                <div class="col-lg-4 col-sm-4 col-xs-4">
+                    <ul>
+                        <li><a href="#Why">Pourquoi le Wild-Cerf tête</a></li>
+                        <li><a href="#How"> Comment ça marche ?</a></li>
+                        <li><a href="#Carac">Les caractéristiques du produit</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-4 col-xs-4">
+                    <ul>
+                        <li><a href="#About">A propos de la société</a></li>
+                        <li><a href="#Formu">Pré réservez votre produit</a></li>
+                        <li><a href="#">Mentions légales</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-4 col-xs-4">
+                    <p>
+                        <img class="img-fluid taillefoo" src="medias/wildX.PNG.png" alt="Logo"/>
+                    </p>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
