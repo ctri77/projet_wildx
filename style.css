@@ -19,6 +19,13 @@
 
 }
 
+.btnreservation:hover {
+	border: 1px solid #ff8700;
+	border-radius: 5px;
+	background-color: white;
+	color: #ff8700;
+}
+
 .whitebtn {
     color: white;
 }
@@ -69,11 +76,10 @@ color:white;
 	border-radius: 50%;
 }
 .orange {
-	background-color: orange;
 	border-radius: 50%;
-	width: 50px;
-	height: 50px;
-	margin: 15px 15px;
+	width: 60px;
+	height: 30px;
+	margin: 5px 5px;
 }
 
 
@@ -89,4 +95,7 @@ font-weight: 300;
 line-height: 1.2;
 font-size: 35px;
 color: #ff8700;
+}
+h1 img {
+	width: 4%;
 }
