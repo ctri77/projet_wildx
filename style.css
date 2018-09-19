@@ -1,3 +1,7 @@
+.toto {
+	display: flex;
+}
+
 .logo {
     width: 50px;
 }
@@ -8,15 +12,25 @@
 }
 
 .btnreservation {
-
+	border: 1px solid #424242;
+	border-radius: 5px;
     background-color: #9e9e9e;
     color: white;
 
 }
 
+.btnreservation:hover {
+	border: 1px solid #ff8700;
+	border-radius: 5px;
+	background-color: white;
+	color: #ff8700;
+}
+
 .whitebtn {
     color: white;
 }
+
+
 
 .carousel-page
 {
@@ -24,4 +38,64 @@ width:100%;
 height:400px;
 background-color:#5f666d;
 color:white;
+}
+
+#carouselIndicators {
+	margin-top: 70px;
+}
+.carousel-indicators .active {
+	background-color: #ff8700;
+}
+.carousel-indicators li {
+	background-color: darkgrey;
+}
+
+#nav .nav-link, #nav .dropdown-item {
+	color: #424242;
+	
+}
+
+#nav .nav-link:hover {
+
+	color: white;
+}
+
+.lignehorizontale {
+	border-bottom: 1px solid #424242;
+}
+@media screen and (min-width: 992px) {
+	.carousel-inner img {
+		width: 100%;
+		height: 800px;
+	}
+}
+
+.carousel-indicators > li {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+.orange {
+	border-radius: 50%;
+	width: 60px;
+	height: 30px;
+	margin: 5px 5px;
+}
+
+
+/*propriété container*/
+#carac, #Why, #How, #About, #Formu
+{
+	margin-top: 40px;
+}
+/*propriété titre*/
+h1
+{
+font-weight: 300;
+line-height: 1.2;
+font-size: 35px;
+color: #ff8700;
+}
+h1 img {
+	width: 4%;
 }
