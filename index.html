@@ -132,32 +132,27 @@
     <!-- container3: technique -->
     <div class ="container-fluid" id="Carac">    
         <div class="jumbotron">
-            <h1><span class="px-2"><img src="medias/gear_orange.svg"></span>Les caractéristiques du produit</h1>
-                <p>Casque bluetooth, écouteurs, autonomie 2h, batterie lithium, 
-                portée 50 mètres, relié à appli smartphone (IOS et Android) pour retranscrire les messages, 
-                certifié conforme EU.<br>
-                Existe en 4 langues (anglais, français, espagnol, japonais).     
-                Design épuré, simple d'utilisation, novateur.<br>
-                Tarif : 999€ <br></p>
-                <!-- bouton decriptif -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                        Descriptif technique
-                      </button>
-                      
-                      <!-- The Modal -->
-                      <div class="modal" id="myModal">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                      
-                            <!-- Modal Header -->
-                            <div class="modal-header">
-                              <h4 class="modal-title">Descriptif technique</h4>
-                              <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                      
-                            <!-- Modal body -->
-                            <div class="modal-body">
-                                    Matériel
+            <h1><span class="px-2"><img src="medias/gear.svg"></span>Les caractéristiques du produit</h1>
+            <p>Casque bluetooth, écouteurs, autonomie 2h, batterie lithium, 
+            portée 50 mètres, relié à appli smartphone (IOS et Android) pour retranscrire les messages, 
+            certifié conforme EU.<br>
+            Existe en 4 langues (anglais, français, espagnol, japonais).     
+            Design épuré, simple d'utilisation, novateur.<br>
+            Tarif : 999€ <br></p>
+            <!-- bouton decriptif -->
+
+            <p>
+                <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Descriptif technique
+                </button>
+            </p>
+
+            <div class ="container-fluid">
+                <div class ="row">
+                    <div class ="col-12 col-md-6">
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body" style="font-size: 80%">
+                                    <strong>Matériel</strong><br>
                                     CPU : Mediatek MT8321, Quad-Core, ARM-A53 @1.3GHz<br>
                                     GPU : ARM Mali-T400<br>
                                     RAM : 1GB, LPDDR3<br>
@@ -170,7 +165,13 @@
                                     USB : Micro USB<br>
                                     USB OTG : Yes<br>
                                     G sensor / Compass /Gyro : Yes / No / No<br>
-                                    Alimentation<br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class ="col-12 col-md-6">
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body" style="font-size: 80%">
+                                    <strong>Alimentation</strong><br>
                                     Battery Size : 5000 mAh<br>
                                     Battery Type : Li-Ion<br>
                                     Battery Weight : 93g<br>
@@ -182,17 +183,11 @@
                                     Quick Start Guide<br>
                                     Warranty Booklet<br>
                             </div>
-                      
-                            <!-- Modal footer -->
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-                            </div>
-                      
-                          </div>
                         </div>
-                      </div>
-       
-         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
    <!-- container4: à propos et photo -->
     <div class ="container-fluid" id="About">  
