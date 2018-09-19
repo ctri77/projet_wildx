@@ -19,6 +19,13 @@
 
 }
 
+.btnreservation:hover {
+	border: 1px solid #ff8700;
+	border-radius: 5px;
+	background-color: white;
+	color: #ff8700;
+}
+
 .whitebtn {
     color: white;
 }
@@ -68,11 +75,10 @@ color:white;
 	border-radius: 50%;
 }
 .orange {
-	background-color: orange;
 	border-radius: 50%;
-	width: 50px;
-	height: 50px;
-	margin: 15px 15px;
+	width: 60px;
+	height: 30px;
+	margin: 5px 5px;
 }
 
 
@@ -95,11 +101,13 @@ footer{
 	margin-top: 20px;
 	align-content: center;
 	width: 100%
+	
 }
 
 footer p {
     color: #424242;
-    padding-top: 10px;
+	padding-top: 10px;
+	list-style-type: none;
 }
 
 footer ul {
@@ -118,11 +126,18 @@ footer ul li {
 }
 
 footer a:hover{
-	color: #424242;
+	color: white;
+	text-decoration: none;
 }
+
 
 .taillefoo {
-	width: 55px;
-	margin-bottom: 5%;
+	width: 65px;
+	margin-left: 7%;
 
 }
+
+h1 img {
+	width: 4%;
+}
+
