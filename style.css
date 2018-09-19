@@ -109,5 +109,12 @@ h1 img {
 #nav .dropdown-item:hover {
 	color: white;
 	background-color: #f4b02d;
-	
+}	
+/*form*/
+#Formu{
+	background-color: rgba(232,232,232,0.5);
+	padding: 25px;
+}
+.formfontc{
+	color:#FF7F00
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
+
     <header>
         <nav class="navbar navbar-expand-lg fixed-top wildtheme m-0 p-1"  role="navigation">
             <div class="container-fluid m-0">
@@ -92,15 +93,14 @@
                     Ainsi, nous pourrons mieux protéger notre environnement et nos ressources.</p>
                 </div>
             </div>
-                <div class="col-12 col-md-5">
-                    <div class="jumbotron">
-                        <h1>Photo</h1>
-                        <p>A rejouter une photo inside</p>
-                    </div>
+            <div class="col-12 col-md-5">
+                <div class="jumbotron">
+                    <h1>Photo</h1>
+                    <p>A rejouter une photo inside</p>
                 </div>
             </div>
         </div>
-    </div>          
+    </div>         
     <!-- container2: comment et photo -->
     <div class ="container-fluid" id="How">
         <div class ="row">
@@ -190,7 +190,7 @@
     </div>
    <!-- container4: à propos et photo -->
     <div class ="container-fluid" id="About">  
-            <div class ="row">
+        <div class ="row">
             <div class="col-12 col-md-7">
                 <div class="jumbotron">
                   <h1><span class="px-2"><img src="medias/organization_orange.svg"></span>A propos de la société</h1>
@@ -200,59 +200,71 @@
                       de Wild X développe.</p>
                 </div>
             </div>
-        <div class="col-12 col-md-5">
+            <div class="col-12 col-md-5">
                 <div class="jumbotron justify-content-center">
                         <img class="equipe mx-auto d-block" src="medias/equipe.png">
                 </div>
             </div>
+        </div>
     </div>
     <!-- container5: formulaire -->
-    <div id="Formu">
-        <form>
-                <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                        <label class="custom-control-label" for="customCheck1">Je pré-réserve</label>
-                      </div>
-                <div class="form-row">
-                    <div class="col-md-6 mb-3">
-                        <label for="validationCustom01">Prénom</label>
-                        <input type="text" class="form-control" id="validationCustom01" placeholder="Prénom" value="Elan" required>
-                          <div class="valid-feedback">
-                            Looks good!
-                          </div>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="validationCustom02">Nom</label>
-                        <input type="text" class="form-control" id="validationCustom02" placeholder="Nom" value="Musk" required>
-                          <div class="valid-feedback">
-                            Looks good!
-                          </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="FormControlInput1">Adresse E-mail</label>
-                    <input type="email" class="form-control" id="FormControlInput1" placeholder="nom@exemple.fr">
-                </div>
-                <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-                        <label class="form-check-label" for="invalidCheck3">
-                            Oui, j'accepte les termes et conditions.
-                        </label>
-                        <div class="invalid-feedback">
-                            Vous devez accepter les termes et conditions avant d'envoyer.
+    <div class="container-fluid" id="Formu">
+            <h2 class="formfontc">Nous contacter :</h2>
+        <div class="row justify-content-center">
+                <form>
+                        <div class="custom-control custom-checkbox mb-3">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Je pré-réserve</label>
                         </div>
-                    </div>
-                    <button class="btn btn-primary" type="submit">Envoyer</button> <!--set a button color--> 
-                </div>
-        </form>
+                        <div class="form-row">
+                            <div class="col-lg-12 mb-3">
+                                <label for="validationCustom01">Nom</label>
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="Musk" value="" required>
+                                <div class="valid-feedback">Nom valide</div>
+                            </div>
+                        </div>
+                        <div class="form-row"> 
+                            <div class="col-lg-12 mb-3">
+                                <label for="validationCustom02">Prénom</label>
+                                <input type="text" class="form-control" id="validationCustom02" placeholder="Elan" value="" required>
+                                <div class="valid-feedback">Prénom valide</div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-12 mb-3">
+                                <div class="form-group">
+                                    <label for="FormControlInput1">Adresse E-mail</label>
+                                    <input type="email" class="form-control" id="FormControlInput1" placeholder="nom@exemple.fr">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-12 mb-3">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Des questions ?</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check m-3">
+                                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                                <label class="form-check-label" for="invalidCheck3">Oui, j'accepte les termes et conditions.</label>
+                                <div class="invalid-feedback">Vous devez accepter les termes et conditions avant d'envoyer.</div>
+                            </div>
+                                <button class="btn btn-primary" type="submit">Envoyer</button> <!--set a button color--> 
+                        </div>
+                </form> 
+        </div>
     </div>
+
     <footer>
 
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+
 </body>
 </html>
 
