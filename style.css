@@ -50,7 +50,7 @@ color:white;
 	background-color: darkgrey;
 }
 
-#nav .nav-link, #nav .dropdown-item {
+#nav .nav-link {
 	color: #424242;
 	
 }
@@ -98,4 +98,16 @@ color: #ff8700;
 }
 h1 img {
 	width: 4%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background-color: #9e9e9e;
+	border: 1px solid #424242; 
+
+}
+
+#nav .dropdown-item:hover {
+	color: white;
+	background-color: #f4b02d;
+	
 }
