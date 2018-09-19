@@ -81,7 +81,13 @@ color:white;
 	margin: 5px 5px;
 }
 
+.accentuation {
+	color: red;
+}
 
+.accentuation2 {
+	color: rgb(43, 219, 43);
+}
 /*propriété container*/
 #carac, #Why, #How, #About, #Formu
 {
@@ -98,10 +104,14 @@ color: #ff8700;
 
 /*Footer*/
 footer{
-	margin-top: 20px;
-	align-content: center;
-	width: 100%
 	
+	margin-top: 20px;
+	align-content: center;	
+	
+}
+
+#footer {
+	background-color: red;
 }
 
 footer p {
