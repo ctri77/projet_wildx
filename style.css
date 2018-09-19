@@ -99,3 +99,11 @@ color: #ff8700;
 h1 img {
 	width: 4%;
 }
+/*form*/
+#Formu{
+	background-color: rgba(232,232,232,0.5);
+	padding: 25px;
+}
+.formfontc{
+	color:#FF7F00
+}
