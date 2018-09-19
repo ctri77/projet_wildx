@@ -24,7 +24,6 @@
 }
 
 
-
 .carousel-page
 {
 width:100%;
@@ -89,4 +88,31 @@ font-weight: 300;
 line-height: 1.2;
 font-size: 35px;
 color: #ff8700;
+}
+
+/*Footer*/
+footer{
+	margin-top: 20px;
+	align-content: center;
+}
+
+footer p {
+    color: white;
+    padding-top: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    color: #fff;
+}
+
+footer ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 85%; 
+}
+
+.taillefoo {
+	width: 55px;
+
 }
