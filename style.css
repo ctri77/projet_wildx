@@ -1,3 +1,4 @@
+
 .toto {
 	display: flex;
 }
@@ -47,7 +48,7 @@ color:white;
 	background-color: darkgrey;
 }
 
-#nav .nav-link {
+#nav .nav-link, #nav .dropdown-item {
 	color: #424242;
 }
 
@@ -79,11 +80,6 @@ color:white;
 }
 
 
-/*propriété container*/
-#carac, #Why, #How, #About, #Formu
-{
-	margin-top: 60px;
-}
 /*propriété titre*/
 h1
 {
@@ -92,9 +88,7 @@ line-height: 1.2;
 font-size: 35px;
 color: #ff8700;
 }
-h1 img {
-	width: 4%;
-}
+
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
 	background-color: #9e9e9e;
@@ -117,8 +111,7 @@ h1 img {
 
 /*Footer*/
 footer{
-	
-	margin-top: 20px;
+
 	align-content: center;	
 	
 }
@@ -167,9 +160,7 @@ footer a:hover{
 .accentuation2 {
 	color: rgb(43, 219, 43);
 }
-.marginJum{
-    margin-top:60px;
-}
+
 .textP{
     font-size: 20px;
 	margin-top:60px;
@@ -193,12 +184,22 @@ footer a:hover{
 
 @media screen and (min-width: 576px) {
 	.textP {
-		font-size: 30px;
+		font-size: 20px;
  
 	}
 	.sizeH1 {
-		font-size: 50px;
+		font-size: 40px;
 	}
+	#nav, .dropdown-item {
+		font-size: 1.5rem;
+	}
+	h1 img {
+		width: 5%;
+	}
+	.formfontc {
+		padding-left: 40px;
+	}
+
 }
 
 @media screen and (max-width: 576px) {
@@ -206,15 +207,26 @@ footer a:hover{
 		display: none;
 	}
 
-	#carac, #Why, #How, #About, #Formu {
-		margin-top: 30px;
-	}
-
 	.taillefoo {
 		margin-left: 38%;
 	}
+	h1 img {
+		width: 9%;
+	}
+	.formfontc {
+		padding-left: 25px;
+	}
 
 }
+.jumbotron {
+	margin-bottom: 0rem;
+	border-radius: 0%;
+}
+
+.margeBarre {
+	height: 70px;
+}
+
 
 
 
