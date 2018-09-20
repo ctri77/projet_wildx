@@ -49,7 +49,6 @@ color:white;
 
 #nav .nav-link {
 	color: #424242;
-	
 }
 
 #nav .nav-link:hover {
@@ -63,7 +62,7 @@ color:white;
 @media screen and (min-width: 992px) {
 	.carousel-inner img {
 		width: 100%;
-		height: 800px;
+		height: 90vh;
 	}
 }
 
@@ -96,7 +95,6 @@ color: #ff8700;
 h1 img {
 	width: 4%;
 }
-<<<<<<< HEAD
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
 	background-color: #9e9e9e;
@@ -110,7 +108,7 @@ h1 img {
 }	
 /*form*/
 #Formu{
-	background-color: rgba(232,232,232,0.5);
+	background-color: #e9ecef;
 	padding: 25px;
 }
 .formfontc{
@@ -169,21 +167,56 @@ footer a:hover{
 .accentuation2 {
 	color: rgb(43, 219, 43);
 }
-=======
 .marginJum{
     margin-top:60px;
 }
 .textP{
-    font-size: 30px;
+    font-size: 20px;
 	margin-top:60px;
 	text-align: justify;
 }
 .sizeH1, .imageMedia{
-    font-size: 50px;
+    font-size: 40px;
 }
 .photoAnimauxMargin{
 	margin-top:30px;
 }
 
+.bgclair {
+	background-color: #f9f9f9;
+}
 
->>>>>>> sectionBranch
+.bgfonce {
+	background-color: #e9ecef;
+}
+
+
+@media screen and (min-width: 576px) {
+	.textP {
+		font-size: 30px;
+ 
+	}
+	.sizeH1 {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.photos {
+		display: none;
+	}
+
+	#carac, #Why, #How, #About, #Formu {
+		margin-top: 30px;
+	}
+
+	.taillefoo {
+		margin-left: 38%;
+	}
+
+}
+
+
+
+
+
