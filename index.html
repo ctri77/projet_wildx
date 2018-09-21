@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Wild X</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
-<body>
 
+<body>
     <header>
+    <!---------------------------------------------------------------NAVBAR------------------------------------------------------------------->
         <nav class="navbar navbar-expand-lg fixed-top wildtheme m-0 p-1">
             <div class="container-fluid m-0">
                 <div class="row no-gutters w-100">
-                    <div class="col-3 col-lg-2">               
+                    <div class="col-3 col-lg-2">
                         <img class="logo" src="medias/wildX.PNG.png" alt="logo WildX">
                     </div>
                     <div class="col-9 col-lg-10">
                         <div class="row justify-content-around">
                             <div class="mt-3 ml-3 mr-3">
-                                <a class="pr-2 btn btn-secondary whitebtn btnreservation btn-md" role="button" href="#Formu">Pré-réservez !</a>
+                                <a class="pr-2 btn btn-secondary whitebtn btnreservation btn-md" role="button" href="#Formu">Pré-réservez
+                                    !</a>
                             </div>
                             <nav class="p-0 mt-3 ml-3 mr-3 navbar justify-content-end navbar-dark wildtheme">
                                 <button class="navbar-toggler" data-target="#nav" data-toggle="collapse" type="button">
@@ -30,19 +34,24 @@
                             <div id="nav" class="collapse navbar-collapse mr-4 mt-3 justify-content-end">
                                 <ul class="nav navbar-nav text-right nav-pills mt-0 pt-0">
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle menuProd" data-toggle="dropdown" href="#">Le produit Wild Cerf Tête</a>
+                                        <a class="nav-link dropdown-toggle menuProd" data-toggle="dropdown" href="#">Le
+                                            produit Wild Cerf Tête</a>
                                         <div class="dropdown-menu wildtheme text-right">
-                                            <a class="dropdown-item" href="#Why"><span class="px-2"><img src="medias/question_blanc.svg" alt="icone questions"></span>Pourquoi ?</a>
-                                            <a class="dropdown-item" href="#How"><span class="px-2"><img src="medias/info_blanc.svg" alt="icone info"></span>Comment ?</a>
-                                            <a class="dropdown-item" href="#Carac"><span class="px-2"><img src="medias/gear_blanc.svg" alt="icone engrenage"></span>Les caractéristiques</a>
-                                        </div>    
-                                    </li>    
-                                    <li class="nav-item">
-                                        <p class="lignehorizontale"></p>   
+                                            <a class="dropdown-item" href="#Why"><span class="px-2"><img src="medias/question_blanc.svg"
+                                                        alt="icone questions"></span>Pourquoi ?</a>
+                                            <a class="dropdown-item" href="#How"><span class="px-2"><img src="medias/info_blanc.svg"
+                                                        alt="icone info"></span>Comment ?</a>
+                                            <a class="dropdown-item" href="#Carac"><span class="px-2"><img src="medias/gear_blanc.svg"
+                                                        alt="icone engrenage"></span>Les caractéristiques</a>
+                                        </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link titi" href="#About"><span class="px-2"><img src="medias/organization_blanc.svg" alt="organization"></span>A propos de la société</a>
-                                    </li>                                          
+                                        <p class="lignehorizontale"></p>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link titi" href="#About"><span class="px-2"><img src="medias/organization_blanc.svg"
+                                                    alt="organization"></span>A propos de la société</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -51,102 +60,108 @@
             </div>
         </nav>
     </header>
+    <!---------------------------------------------------------------CAROUSSEL PHOTOS---------------------------------------------------------------->
     <div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="8500">
         <ol class="carousel-indicators">
-          <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block img-fluid rounded mx-auto" src="medias/cerf_tete.png" alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h2 class="ctaille">Un produit <span class="accentuation">révolutionnaire</span> !</h2>
+            <div class="carousel-item active">
+                <img class="d-block img-fluid rounded mx-auto" src="medias/cerf_tete.png" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="ctaille">Un produit <span class="accentuation">révolutionnaire</span> !</h2>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item mr-auto">
-            <img class="d-block img-fluid rounded mx-auto" src="medias/cerf_tete3.png" alt="Second slide">
-            <div class="carousel-caption d-none d-md-block">
-                <h2 class="ctaille">Connectez vous à la <span class="accentuation2">Nature</span> !</h2>
+            <div class="carousel-item mr-auto">
+                <img class="d-block img-fluid rounded mx-auto" src="medias/cerf_tete3.png" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="ctaille">Connectez vous à la <span class="accentuation2">Nature</span> !</h2>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item mr-auto">
-            <img class="d-block img-fluid rounded mx-auto" src="medias/cerf_tete4.png" alt="Third slide">
-          </div>
+            <div class="carousel-item mr-auto">
+                <img class="d-block img-fluid rounded mx-auto" src="medias/cerf_tete4.png" alt="Third slide">
+            </div>
         </div>
         <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon orange" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+            <span class="carousel-control-prev-icon orange" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon orange" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+            <span class="carousel-control-next-icon orange" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
         </a>
     </div>
-    <!-- container1: pourquoi et photo -->
-<div class="container-fluid bgfonce margeBarre" id="Why"></div>
-<div class="container-fluid bgfonce">
-    <div class="jumbotron bgfonce pt-2">
-        <div class ="container-fluid">
-            <div class ="row">
-                <div class="col-12 col-md-12 col-lg-7">
-                    <h1 class="sizeH1"><span class="px-2"><img src="medias/question_orange.svg" alt="icone questions orange"></span>Pourquoi le Wild Cerf Tête?</h1>
-                    <p class="textP"> Car le cerf est le roi de la forêt, si on lui parle on accède donc à 
-                    tous les autres animaux ! Le but est d'améliorer la compréhension et donc 
-                    les échanges avec les animaux qui nous entourent. 
-                    Ainsi, nous pourrons mieux protéger notre environnement et nos ressources.</p>
-                </div>
-                <div class="col-12 col-md-12 col-lg-5">
-                    <p><img class="img-fluid rounded photos" src="medias/aigle.png" alt="photoAigle"></p>
+    <!--------------------------------------------------------Pourquoi le Wilf Cerf Tete------------------------------------------------------------->
+    <div class="container-fluid bgfonce margeBarre" id="Why"></div>
+    <div class="container-fluid bgfonce">
+        <div class="jumbotron bgfonce pt-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-7">
+                        <h1 class="sizeH1"><span class="px-2"><img src="medias/question_orange.svg" alt="icone questions orange"></span>Pourquoi
+                            le Wild Cerf Tête?</h1>
+                        <p class="textP"> Car le cerf est le roi de la forêt, si on lui parle on accède donc à
+                            tous les autres animaux ! Le but est d'améliorer la compréhension et donc
+                            les échanges avec les animaux qui nous entourent.
+                            Ainsi, nous pourrons mieux protéger notre environnement et nos ressources.</p>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-5">
+                        <p><img class="img-fluid rounded photos" src="medias/aigle.png" alt="photoAigle"></p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>      
-</div>
-<div class="container-fluid bgclair margeBarre" id="How"></div>
-<!-- container2: comment et photo -->
-<div class="container-fluid bgclair">
-    <div class="jumbotron bgclair pt-2">
-            <div class ="container-fluid">
-                    <div class ="row">
-                        <div class="col-12 col-md-12 col-lg-7">
-                            <h1 class="sizeH1"><span class="px-2"><img src="medias/info_orange.svg" alt="icone info orange"></span>Comment ça marche?</h1>
-                            <p class="textP"> Lecture des ondes cérébrales, transmissions via les "bois" (qui sont des antennes).
-                                Une IA traduit ces ondes en langage pour que le cerf comprenne.        
-                                De plus, les ondes du cerf sont détectées et traduites pour être comprises 
-                                par le porteur du Wild Cerf-tête. 4 brevets ont été déposés!</p>
-                        </div>
-                        <div class="col-12 col-md-12 col-lg-5">
-                            <p><img  class="img-fluid rounded photoAnimauxMargin photos" src="medias/animaux.jpg" alt="photoAnimaux"></p>
-                        </div>
+    </div>
+    <div class="container-fluid bgclair margeBarre" id="How"></div>
+    <!-----------------------------------------------------------Comment ça marche ?-------------------------------------------------------------->
+    <div class="container-fluid bgclair">
+        <div class="jumbotron bgclair pt-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-7">
+                        <h1 class="sizeH1"><span class="px-2"><img src="medias/info_orange.svg" alt="icone info orange"></span>Comment
+                            ça marche?</h1>
+                        <p class="textP"> Lecture des ondes cérébrales, transmissions via les "bois" (qui sont des
+                            antennes).
+                            Une IA traduit ces ondes en langage pour que le cerf comprenne.
+                            De plus, les ondes du cerf sont détectées et traduites pour être comprises
+                            par le porteur du Wild Cerf-tête. 4 brevets ont été déposés!</p>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-5">
+                        <p><img class="img-fluid rounded photoAnimauxMargin photos" src="medias/animaux.jpg" alt="photoAnimaux"></p>
                     </div>
                 </div>
+            </div>
         </div>
-</div>      
-<div class="container-fluid margeBarre bgfonce" id="Carac"></div>
-     <!-- container3: technique -->
-<div class ="container-fluid mx-0 px-0 bgfonce">    
-    <div class="jumbotron pt-2">
-        <h1 class="sizeH1"><span class="px-2"><img src="medias/gear_orange.svg" alt="gear orange"></span>Les caractéristiques du produit</h1>
-        <p class="textP">Casque bluetooth, écouteurs, autonomie 2h, batterie lithium, 
-        portée 50 mètres, relié à appli smartphone (IOS et Android) pour retranscrire les messages, 
-        certifié conforme EU.<br>
-        Existe en 4 langues (anglais, français, espagnol, japonais).     
-        Design épuré, simple d'utilisation, novateur.<br>
-        Tarif : 999€ <br></p>
-        <!-- bouton decriptif -->
+    </div>
+    <div class="container-fluid margeBarre bgfonce" id="Carac"></div>
+    <!---------------------------------------------------Les caractéristiques du produit-------------------------------------------------------------->
+    <div class="container-fluid mx-0 px-0 bgfonce">
+        <div class="jumbotron pt-2">
+            <h1 class="sizeH1"><span class="px-2"><img src="medias/gear_orange.svg" alt="gear orange"></span>Les
+                caractéristiques du produit</h1>
+            <p class="textP">Casque bluetooth, écouteurs, autonomie 2h, batterie lithium,
+                portée 50 mètres, relié à appli smartphone (IOS et Android) pour retranscrire les messages,
+                certifié conforme EU.<br>
+                Existe en 4 langues (anglais, français, espagnol, japonais).
+                Design épuré, simple d'utilisation, novateur.<br>
+                Tarif : 999€ <br></p>
 
-        <p>
-            <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                Descriptif technique
-            </button>
-        </p>
+    <!------------------------------------------------ bouton decriptif ------------------------------------------------------------------------------->
+            <p>
+                <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Descriptif technique
+                </button>
+            </p>
 
-        <div class ="container-fluid">
-            <div class ="row collapse" id="collapseExample">
-                <div class ="col-12 col-md-6">
-                    <div>
-                        <div class="card card-body" style="font-size: 95%">
+            <div class="container-fluid">
+                <div class="row collapse" id="collapseExample">
+                    <div class="col-12 col-md-6">
+                        <div>
+                            <div class="card card-body" style="font-size: 95%">
                                 <strong>Matériel</strong><br>
                                 CPU : Mediatek MT8321, Quad-Core, ARM-A53 @1.3GHz<br>
                                 GPU : ARM Mali-T400<br>
@@ -160,12 +175,12 @@
                                 USB : Micro USB<br>
                                 USB OTG : Yes<br>
                                 G sensor / Compass /Gyro : Yes / No / No<br>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class ="col-12 col-md-6">
-                    <div>
-                        <div class="card card-body" style="font-size: 95%">
+                    <div class="col-12 col-md-6">
+                        <div>
+                            <div class="card card-body" style="font-size: 95%">
                                 <strong>Alimentation</strong><br>
                                 Battery Size : 5000 mAh<br>
                                 Battery Type : Li-Ion<br>
@@ -177,84 +192,88 @@
                                 USB Cable<br>
                                 Quick Start Guide<br>
                                 Warranty Booklet<br>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="container-fluid margeBarre bgclair" id="About"></div>
-<!-- container4: à propos et photo -->
-<div class="container-fluid bgclair">
-    <div class="jumbotron bgclair pt-2">
-            <div class ="container-fluid">
-                    <div class ="row">
-                        <div class="col-12 col-md-12 col-lg-7">
-                            <h1 class="sizeH1"><span class="px-2"><img src="medias/organization_orange.svg" alt="organization"></span>A propos de la société</h1>
-                            <p class="textP"> Présentation de la société Wild X, créatrice du Cerf-tête connecté : 
-                                    Son PDG, Élan Musk, souhaite révolutionner le rapport entre les hommes 
-                                    et les animaux, à l'aide de toute la technologie moderne que l'équipe R&D 
-                                    de Wild X développe.</p>
-                        </div>
-                        <div class="col-12 col-md-12 col-lg-5">
-                                <img class="img-fluid rounded societeMarg photos" src="medias/societe.jpg" alt="societe">
+    <div class="container-fluid margeBarre bgclair" id="About"></div>
+    <!----------------------------------------------------------A propos de la société-------------------------------------------------------------->
+    <div class="container-fluid bgclair">
+        <div class="jumbotron bgclair pt-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-7">
+                        <h1 class="sizeH1"><span class="px-2"><img src="medias/organization_orange.svg" alt="organization"></span>A
+                            propos de la société</h1>
+                        <p class="textP"> Présentation de la société Wild X, créatrice du Cerf-tête connecté :
+                            Son PDG, Élan Musk, souhaite révolutionner le rapport entre les hommes
+                            et les animaux, à l'aide de toute la technologie moderne que l'équipe R&D
+                            de Wild X développe.</p>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-5">
+                        <img class="img-fluid rounded societeMarg photos" src="medias/societe.jpg" alt="societe">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------Formulaire--------------------------------------------------------------------------->
+    <div class="container-fluid bgfonce margeBarre" id="Formu"></div>
+    <div class="container-fluid bgfonce pt-2">
+        <h1 class="formfontc"><span class="px-2"><img src="medias/mail_orange.svg" alt="mail"></span>Nous contacter</h1>
+        <div class="row justify-content-center">
+            <form>
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Je pré-réserve</label>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-12 mb-3">
+                        <label for="validationCustom01">Nom</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Musk" value=""
+                            required>
+                        <div class="valid-feedback">Nom valide</div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-12 mb-3">
+                        <label for="validationCustom02">Prénom</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Elan" value=""
+                            required>
+                        <div class="valid-feedback">Prénom valide</div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-12 mb-3">
+                        <div class="form-group">
+                            <label for="FormControlInput1">Adresse E-mail</label>
+                            <input type="email" class="form-control" id="FormControlInput1" placeholder="nom@exemple.fr">
                         </div>
                     </div>
                 </div>
-        </div>
-</div>      
-    <div class="container-fluid bgfonce margeBarre" id="Formu"></div>
-    <!-- container5: formulaire -->
-    <div class="container-fluid bgfonce pt-2">
-            <h1 class="formfontc"><span class="px-2"><img src="medias/mail_orange.svg" alt="mail"></span>Nous contacter</h1>
-        <div class="row justify-content-center">
-                <form>
-                        <div class="custom-control custom-checkbox mb-3">
-                            <input type="checkbox" class="custom-control-input" id="customCheck1">
-                            <label class="custom-control-label" for="customCheck1">Je pré-réserve</label>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-12 mb-3">
-                                <label for="validationCustom01">Nom</label>
-                                <input type="text" class="form-control" id="validationCustom01" placeholder="Musk" value="" required>
-                                <div class="valid-feedback">Nom valide</div>
-                            </div>
-                        </div>
-                        <div class="form-row"> 
-                            <div class="col-lg-12 mb-3">
-                                <label for="validationCustom02">Prénom</label>
-                                <input type="text" class="form-control" id="validationCustom02" placeholder="Elan" value="" required>
-                                <div class="valid-feedback">Prénom valide</div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-12 mb-3">
-                                <div class="form-group">
-                                    <label for="FormControlInput1">Adresse E-mail</label>
-                                    <input type="email" class="form-control" id="FormControlInput1" placeholder="nom@exemple.fr">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-lg-12 mb-3">
-                                <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Des questions ?</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-                                </div>
-                            </div>
-                        </div>
+                <div class="form-row">
+                    <div class="col-lg-12 mb-3">
                         <div class="form-group">
-                            <div class="form-check m-3">
-                                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-                                <label class="form-check-label" for="invalidCheck3">Oui, j'accepte les termes et conditions.</label>
-                                <div class="invalid-feedback">Vous devez accepter les termes et conditions avant d'envoyer.</div>
-                            </div>
-                                <button class="btn btn-primary" type="submit">Envoyer</button> <!--set a button color--> 
+                            <label for="exampleFormControlTextarea1">Des questions ?</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
                         </div>
-                </form> 
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check m-3">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                        <label class="form-check-label" for="invalidCheck3">Oui, j'accepte les termes et conditions.</label>
+                        <div class="invalid-feedback">Vous devez accepter les termes et conditions avant d'envoyer.</div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Envoyer</button>
+                </div>
+            </form>
         </div>
     </div>
+    <!---------------------------------------------------------Footer--------------------------------------------------------------------------------->
     <footer class="container-fluid px-0 mx-0 wildtheme">
         <div class="pt-3">
             <div class="row w-100 no-gutters">
@@ -274,16 +293,17 @@
                 </div>
                 <div class="col-lg-4 col-sm-4 col-xs-4">
                     <p>
-                        <img class="img-fluid taillefoo" src="medias/wildX.PNG.png" alt="Logo"/>
+                        <img class="img-fluid taillefoo" src="medias/wildX.PNG.png" alt="Logo" />
                     </p>
                 </div>
             </div>
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <script src="script.js"></script>
 
 </body>
-</html>
 
+</html>
